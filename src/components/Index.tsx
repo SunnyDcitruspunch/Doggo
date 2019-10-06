@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 
 const Index = () => {
   return (
@@ -37,9 +38,11 @@ const Index = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Create New Post
-              </a>
+              <Link to="/create">
+                <a className="nav-link" href="#">
+                  Create New Post
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -71,4 +74,3 @@ const Index = () => {
 };
 
 export default Index;
-
