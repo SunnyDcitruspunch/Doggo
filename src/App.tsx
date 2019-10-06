@@ -1,12 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
+import * as React from "react";
 import "./App.css";
 import Index from "../src/components/Index";
+import Router from "./Router";
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="App">
       <Index />
+      <Router />
     </div>
   );
 };
