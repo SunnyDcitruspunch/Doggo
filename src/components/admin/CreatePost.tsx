@@ -4,7 +4,7 @@ const CreatePost = () => {
  return (
     <React.Fragment>
     <h2>Create a New Post</h2>
-    <form>
+    <form style={{ width: "80%", margin: "auto" }}>
       <fieldset>
         <legend>Legend</legend>
         <div className="form-group row">

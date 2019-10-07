@@ -1,12 +1,12 @@
 import * as React from "react";
 import "./App.css";
-import Index from "../src/components/Index";
+import  Nav from "./components/Home/Nav";
 import Router from "./Router";
 
 const App = () => {
   return (
     <div className="App">
-      <Index />
+      <Nav />
       <Router />
     </div>
   );
