@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Greetings = () => {
   return (
@@ -15,11 +15,7 @@ const Greetings = () => {
         out within the larger container.
       </p>
       <p className="lead">
-        <Link to="/adoption">
-          <a className="btn btn-primary btn-lg" href="#" role="button">
-            Find my new best friend
-          </a>
-        </Link>
+        <Link to="/adoption">Find my new best friend</Link>
       </p>
     </div>
   );

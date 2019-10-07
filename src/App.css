@@ -29,4 +29,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+@font-face {
+  font-family: "Pecita";
+  src: local("Pecita"), url(./fonts/Pecita.otf) format("opentype");
+}
+
+html {
+  font-family: 'Pecita', sans-serif;
+}
 /*# sourceMappingURL=App.css.map */

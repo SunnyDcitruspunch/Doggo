@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import '../../static/Pecita.otf'
 
 //TODO:collapse navbar
 
@@ -7,11 +8,7 @@ const Nav = () => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-expand-lg navbar-info bg-light">
-        <Link to="/">
-          <a className="navbar-brand" href="#">
-            Guava's Doggo Playground
-          </a>
-        </Link>
+        <Link to="/">Guava's Doggo Playground</Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,30 +25,23 @@ const Nav = () => {
           <ul className="navbar-nav mr-auto">
             <li className="nav-link">
               <Link to="/adoption">
-                {/* <a className="nav-link" style={{ color: "white", textDecoration:"none" }}> */}
-                <span>Adoption</span>
-                {/* </a> */}
+                <span style={{ fontFamily: "Pecita" }}>Adoption</span>
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-link">
               <Link to="/donation">
-                <a className="nav-link" href="#">
-                  Donation
-                </a>
+                {" "}
+                <span style={{ fontFamily: "Pecita" }}>Donation </span>
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-link">
               <Link to="/create">
-                <a className="nav-link" href="#">
-                  Create New Post
-                </a>
+                <span style={{ fontFamily: "Pecita" }}>Create New Post </span>
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-link">
               <Link to="/about">
-                <a className="nav-link" href="#">
-                  About
-                </a>
+                <span style={{ fontFamily: "Pecita" }}>About </span>
               </Link>
             </li>
           </ul>
