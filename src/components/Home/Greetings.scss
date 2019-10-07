@@ -10,35 +10,45 @@
 }
 
 #doggoimg {
-  display: flex;
-  width: 100vw;
+  background-image: url("../../images/adog.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #desc {
-  height: 100vh;
+  height: 800px;
   padding: 30px 100px;
   display: flex;
   flex-direction: row;
   background-color: $applecore;
+  opacity: 1;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 30%;
   height: 60%;
   background-color: $apricot;
-  border-radius: 8px;
-  padding: 8px;
-  margin: 2vw;
+  border-radius: 10px;
+  padding: auto;
+  margin: auto 2vw;
   color: $apricot;
+
+  h3 {
+    margin-top: 30%;
+  }
 }
 
 .card:hover {
-  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+  opacity: 1;
 }

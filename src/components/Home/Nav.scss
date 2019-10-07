@@ -1,3 +1,32 @@
-a:hover {
-    text-decoration: none;
+@import "../../variables";
+
+#nav {
+  height: 50px;
+  background-image: url("../../images/adog.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nav:hover {
+    height: 100px;
+}
+
+#menu {
+  text-decoration: none;
+  margin: auto;
+  font-family: "LoveLexi";
+  color: $apricot;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  //use justify content for display flex
+  justify-content: center;
+
+  h4 {
+    margin: 10px;
+    text-align: center;
+  }
 }
