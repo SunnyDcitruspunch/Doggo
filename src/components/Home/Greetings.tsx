@@ -1,19 +1,43 @@
 import React from "react";
 import "../../fonts/LovelexieHandwritten.ttf";
 import "./Greetings.scss";
-import Doggo from '../../images/adog.jpg'
+import Doggo from "../../images/adog.jpg";
 
 const Greetings = () => {
   return (
     <React.Fragment>
-      <div id="carusel">
+      <div id="doggoimg">
         <img src={Doggo} alt="doggo" />
       </div>
-      <div style={{ fontFamily:"LoveLexi"}}>Hello~</div>
-      {/* <div>
-        <span id='lcard'></span>
-        <span id="rcard"></span>
-      </div> */}
+      <div
+        id="desc"
+        style={{ fontFamily: "LoveLexi" }}
+      >
+        <div className="card">
+          <h4>
+            <b>Who we are</b>
+          </h4>
+          <p>Architect & Engineer</p>
+        </div>
+        <div className="card">
+          <h4>
+            <b>Where we are</b>
+          </h4>
+          <p>Architect & Engineer</p>
+        </div>
+        <div className="card">
+          <h4>
+            <b>Where we are</b>
+          </h4>
+          <p>Architect & Engineer</p>
+        </div>
+        <div className="card">
+          <h4>
+            <b>Where we are</b>
+          </h4>
+          <p>Architect & Engineer</p>
+        </div>
+      </div>
     </React.Fragment>
   );
 };

@@ -9,37 +9,36 @@
   }
 }
 
-#carusel {
-  width: 40%;
-  margin: auto;
-  float: left;
-  height: 70vh;
+#doggoimg {
+  display: flex;
   width: 100vw;
-
-  #card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
 }
 
-#lcard {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+#desc {
+  height: 100vh;
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: row;
   background-color: $applecore;
-  border-radius: 10px;
-  margin-top: 70vh;
-  height: 40vh;
-  width: 30vw;;
-
-}
-
-#rcard {
-    // margin-top: 70vh;
-    height: 60vh;
-    width: 70vh;
-    background-color: $dirt;
-    float: right;
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 60%;
+  background-color: $apricot;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 2vw;
+  color: $apricot;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
 }

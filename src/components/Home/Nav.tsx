@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../../static/Pecita.otf";
+import "../../fonts/Pecita.otf";
 import "./Nav.scss";
 
 //TODO:collapse navbar
@@ -26,7 +26,7 @@ const Nav = () => {
               color: "#F7882f"
             }}
           >
-            Guava's Doggo Playground
+            Guava's Animal Playground
           </h3>
         </div>
         <button
