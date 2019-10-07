@@ -1,0 +1,44 @@
+#btnFriend {
+  border-radius: 10px;
+  background-color: #f7882f;
+}
+
+#btnFriend a:hover {
+  text-decoration: none;
+}
+
+#carusel {
+  width: 40%;
+  margin: auto;
+  float: left;
+  height: 70vh;
+  width: 100vw;
+}
+
+#carusel #card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#lcard {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #dcc7aa;
+  border-radius: 10px;
+  margin-top: 70vh;
+  height: 40vh;
+  width: 30vw;
+}
+
+#rcard {
+  height: 60vh;
+  width: 70vh;
+  background-color: #cd8523;
+  float: right;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=Greetings.css.map */

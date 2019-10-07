@@ -1,14 +1,34 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import '../../static/Pecita.otf'
+import "../../static/Pecita.otf";
+import "./Nav.scss";
 
 //TODO:collapse navbar
 
 const Nav = () => {
   return (
     <React.Fragment>
-      <nav className="navbar navbar-expand-lg navbar-info bg-light">
-        <Link to="/">Guava's Doggo Playground</Link>
+      <nav
+        className="navbar navbar-expand-lg"
+        style={{ display: "block", textAlign: "center", verticalAlign: "top" }}
+      >
+        <div
+          style={{
+            fontFamily: "LoveLexi",
+            verticalAlign: "middle"
+          }}
+        >
+          <h3
+            style={{
+              textDecoration: "none",
+              textAlign: "center",
+              fontSize: "40px",
+              color: "#F7882f"
+            }}
+          >
+            Guava's Doggo Playground
+          </h3>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,7 +41,7 @@ const Nav = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarColor03">
+        {/* <div className="collapse navbar-collapse" id="navbarColor03">
           <ul className="navbar-nav mr-auto">
             <li className="nav-link">
               <Link to="/adoption">
@@ -45,7 +65,7 @@ const Nav = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </nav>
     </React.Fragment>
   );

@@ -26,6 +26,7 @@
   src: local("Pecita"), url(./fonts/Pecita.otf) format("opentype");
 }
 
-html {
-  font-family: 'Pecita', sans-serif;
+@font-face {
+  font-family: "LoveLexi";
+  src: local("LoveLexi"), url(./fonts/LovelexieHandwritten.ttf) format("truetype");
 }

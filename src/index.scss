@@ -1,19 +1,5 @@
-@font-face {
-  font-family: "Pecita";
-  src: local("Pecita"), url(./fonts/Pecita.otf) format("otf");
-}
-
 body {
   margin: 0;
-  font-family: "Pecita";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: "Pecita";
-}
-
-html {
-  font-family: 'Pecita';
 }
