@@ -1,17 +1,22 @@
 @import "../../variables";
 
-#nav {
-  height: 50px;
-  background-image: url("../../images/adog.jpg");
-  min-height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+// #nav {
+  // height: 50px;
+  // background-image: url("../../images/adog.jpg");
+  // min-height: 600px;
+  // background-attachment: fixed;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+// }
 
-#nav:hover {
-    height: 100px;
+// #nav:hover {
+//     height: 100px;
+// }
+
+#nav {
+  display: flex;
+  flex-direction: row;
 }
 
 #menu {
@@ -30,3 +35,18 @@
     text-align: center;
   }
 }
+
+#brand {
+  text-decoration: none;
+  color: $apricot;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 1vw;
+  margin: 2vw;
+}
+
+a {
+  margin: 2.5vw;
+}
+
+

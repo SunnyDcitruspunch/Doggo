@@ -18,29 +18,30 @@ const Nav = () => {
             verticalAlign: "middle"
           }}
         >
-          <h3
-            style={{
-              textDecoration: "none",
-              textAlign: "center",
-              fontSize: "40px",
-              color: "#F7882f",
-              paddingTop: "1vw"
-            }}
+          <Link
+            to="/about"
+            style={{ textDecoration: "none", color: "#f7882f" }}
           >
-            Guava's Animal Playground
-          </h3>
-        </div>
-        <div id="menu">
-          <Link to="/adoption" style={{ textDecoration: 'none', color:"#f7882f" }}>
-            <h4>Find my new best friend</h4>
+            About Us
           </Link>
-          <Link to="/donation" style={{ textDecoration: 'none', color:"#f7882f" }}>
-            <h4>Donation</h4>
+          <Link to="/" style={{ textDecoration: "none", color: "#f7882f" }}>
+            Contact
           </Link>
-          <Link to="/about" style={{ textDecoration: 'none', color:"#f7882f" }}>
-            <h4>About Us</h4>
+          <Link id="brand" to="/">
+            Guava's Animal Shelter
           </Link>
-          <h4>Contact</h4>
+          <Link
+            to="/adoption"
+            style={{ textDecoration: "none", color: "#f7882f" }}
+          >
+            Find my new best friend
+          </Link>
+          <Link
+            to="/donation"
+            style={{ textDecoration: "none", color: "#f7882f" }}
+          >
+            Donation
+          </Link>
         </div>
       </nav>
     </React.Fragment>

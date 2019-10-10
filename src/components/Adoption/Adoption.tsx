@@ -1,10 +1,12 @@
-import React from 'react'
-import Profile from './Profile'
+import React from "react";
+import Profile from "./Profile";
 
 const Adoption = () => {
-    return (
-        <Profile />
-    )
-}
+  return (
+    <div id="adoption">
+      <Profile />
+    </div>
+  );
+};
 
-export default Adoption
+export default Adoption;
